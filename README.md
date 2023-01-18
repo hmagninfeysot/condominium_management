@@ -1,2 +1,2 @@
-# odoo
-gestion de odoo société exnihilosolution
+# condominium_management
+gestion des copropriété 
