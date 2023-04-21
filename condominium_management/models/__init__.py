@@ -1,3 +1,3 @@
-from . import account_invoice
-from . import purchase_order
-check_company=True
+from . import apartment_management
+from . import meeting
+from . import paiement
