@@ -108,4 +108,21 @@
         action="action_meeting"
         sequence="2"
     /> 
+
+    <!-- ir action menu - interface action - Menu payment approval-->
+    <record id="action_payment_approval" model="ir.actions.act_window">
+        <field name="name">Payment approval</field>
+        <field name="res_model">payment.approval</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_payment_approval"
+        name="Payment approval"
+        parent="condominium_management.menu_condominium_management"
+        groups="base.group_user"
+        action="action_payment_approval"
+        sequence="1"
+    /> 
+
 </odoo>

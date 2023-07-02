@@ -5,8 +5,8 @@
         <field name="arch" type="xml">
             <tree string="Apartment management">
                     <field name="id"/>
-                    <field name="name" string="Appartement"/>
-                    <field name="homeowner"/>
+                    <field name="name" string="Apartment"/>
+                    <field name="homeowner_id"/>
                     <field name="share_of_ownership"/>
                     <field name="montlhy_payment" widget="monetary"/>
                     <field name="payment_submission"/>

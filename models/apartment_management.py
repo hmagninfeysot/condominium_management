@@ -6,8 +6,8 @@ class apartment_management(models.Model):
     _description ="Registration of the apartments of the various condominiums"
 
 
-    name = fields.Char('Name')
-    homeowner = fields.Many2one('res.parntner',string='Homeowner')
+    name = fields.Char('Apartment')
+    homeowner_id = fields.Many2one('res.partner',string='Homeowner')
     share_of_ownership = fields.Integer('Share of ownership')
     montlhy_payment = fields.Monetary('Montlhy payment')
     payment_submission = fields.Boolean('Payment submission')

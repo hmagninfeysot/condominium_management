@@ -23,7 +23,8 @@ This module has been written by Honoré Magnin-Feysot from ExNihiloSolution <htt
         'purchase',
         'account',
         'maintenance',
-        'dms', 
+        'dms',
+        'contacts',
         ],
     'data': [
         'data/payment_state_data.xml',
@@ -32,6 +33,7 @@ This module has been written by Honoré Magnin-Feysot from ExNihiloSolution <htt
         'views/apartment_management.xml',
         'views/meeting_attendance.xml',
         'views/meeting.xml',
+        'views/payment_approval.xml',
         'views/payment_state.xml',
         ],
     'installable': True,
