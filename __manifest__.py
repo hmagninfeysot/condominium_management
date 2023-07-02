@@ -14,7 +14,7 @@ This module offers a follow-up of your condominiums:
 
 * TODO: update this list
 
-This module has been written by Honoré Magnin-Feysot from Mycéliandre <https://github.com/hmagninfeysot>.
+This module has been written by Honoré Magnin-Feysot from ExNihiloSolution <https://github.com/hmagninfeysot>.
     """,
     'author': 'Honoré Magnin-Feysot',
     'website': 'https://www.exnihilosolution.com/',
@@ -24,6 +24,8 @@ This module has been written by Honoré Magnin-Feysot from Mycéliandre <https:/
         'maintenance', 
         ],
     'data': [
+        'data/payment_statut_data.xml',
+        'views/apartment_management.xml',
         ],
     'installable': True,
 }
