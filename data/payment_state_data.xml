@@ -1,0 +1,17 @@
+<odoo>
+
+    <!--status payement-->
+    <record id="payement_draft" model="payment.state">
+        <field name="name">Draft</field>
+    </record>
+    <record id="payment_validated" model="payment.state">
+        <field name="name">Validated</field>
+    </record>
+    <record id="payment_cancelled" model="payment.state">
+        <field name="name">Cancelled</field>
+    </record>
+    <record id="payment_mistake" model="payment.state">
+        <field name="name">Mistake</field>
+    </record>
+
+</odoo>

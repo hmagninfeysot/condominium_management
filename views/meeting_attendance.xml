@@ -1,0 +1,18 @@
+<odoo>
+    <record id="meeting_attendance_view_tree" model="ir.ui.view">
+        <field name="name">meeting_attendance.view.tree</field>
+        <field name="model">general.meeting.attendance</field>
+        <field name="arch" type="xml">
+            <tree string="Meeting attendance" default_order='date desc, appartment_id'>
+                <field name="appartment_id"/>
+                <field name="homeowner_id"/>
+                <field name="garage_id"/>
+                <field name="parking_space_id"/>
+                <field name="share_of_ownership_id"/>
+                <field name="date"/>
+                <field name="meeting_id" string="Lien vers AG/REU"/>                  
+            </tree>
+        </field>
+    </record>
+
+</odoo>

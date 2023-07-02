@@ -1,0 +1,111 @@
+<odoo>
+
+    <!--Menu de base condominium et config -->
+    <menuitem
+        id="menu_condominium_management"
+        name="Condominium management"
+        parent=""
+        groups="base.group_user"
+        action=""
+        sequence="3"
+    /> 
+
+    <menuitem
+        id="menu_configuration"
+        name="Configuration"
+        parent="condominium_management.menu_condominium_management"
+        groups="base.group_user"
+        action=""
+        sequence="3"
+    />
+
+     <!-- ir action menu - interface action - Menu payment state-->
+    <record id="action_payment_state" model="ir.actions.act_window">
+        <field name="name">Payment state</field>
+        <field name="res_model">payment.state</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_payment_state"
+        name="Payment state"
+        parent="condominium_management.menu_configuration"
+        groups="base.group_user"
+        action="action_payment_state"
+        sequence="3"
+    /> 
+    
+    <!-- ir action menu - interface action - Menu apartment management-->
+    <record id="action_apartment_management" model="ir.actions.act_window">
+        <field name="name">Apartment management</field>
+        <field name="res_model">apartment.management</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_apartment_management"
+        name="Apartment management"
+        parent="condominium_management.menu_configuration"
+        groups="base.group_user"
+        action="action_apartment_management"
+        sequence="4"
+    /> 
+
+   <!-- ir action menu - interface action - Menu general meeting attendance-->
+    <record id="action_general_meeting_attendance" model="ir.actions.act_window">
+        <field name="name">General meeting attendance</field>
+        <field name="res_model">general.meeting.attendance</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_general_meeting_attendance"
+        name="General meeting attendance"
+        parent="condominium_management.menu_configuration"
+        groups="base.group_user"
+        action="action_general_meeting_attendance"
+        sequence="5"
+    /> 
+
+    <!-- ir action menu - interface action - Menu general meeting-->
+    <menuitem
+        id="menu_meeting"
+        name="Meeting"
+        parent="condominium_management.menu_condominium_management"
+        groups="base.group_user"
+        action=""
+        sequence="1"
+    /> 
+
+    <record id="action_general_meeting" model="ir.actions.act_window">
+        <field name="name">General meeting</field>
+        <field name="res_model">general.meeting</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('meeting_type','=', 'gm')]</field>
+    </record>
+
+    <menuitem
+        id="menu_general_meeting"
+        name="General meeting"
+        parent="condominium_management.menu_meeting"
+        groups="base.group_user"
+        action="action_general_meeting"
+        sequence="1"
+    /> 
+
+    <record id="action_meeting" model="ir.actions.act_window">
+        <field name="name">Meeting</field>
+        <field name="res_model">general.meeting</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('meeting_type','=', 'meet')]</field>
+    </record>
+
+    <menuitem
+        id="menu_meeting_submenu"
+        name="Meeting"
+        parent="condominium_management.menu_meeting"
+        groups="base.group_user"
+        action="action_meeting"
+        sequence="2"
+    /> 
+</odoo>

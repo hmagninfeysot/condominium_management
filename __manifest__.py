@@ -21,11 +21,18 @@ This module has been written by Honoré Magnin-Feysot from ExNihiloSolution <htt
     'depends': [
         'base',
         'purchase',
-        'maintenance', 
+        'account',
+        'maintenance',
+        'dms', 
         ],
     'data': [
-        'data/payment_statut_data.xml',
+        'data/payment_state_data.xml',
+        'data/condominium_management_data.xml',
+        'security/ir.model.access.csv',
         'views/apartment_management.xml',
+        'views/meeting_attendance.xml',
+        'views/meeting.xml',
+        'views/payment_state.xml',
         ],
     'installable': True,
 }

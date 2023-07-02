@@ -1,0 +1,115 @@
+<odoo>
+    <record id="meeting_view_tree" model="ir.ui.view">
+        <field name="name">meeting.view.tree</field>
+        <field name="model">general.meeting</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="date"/>
+                <field name="meeting_place"/>
+                <field name="meeting_type"/>
+                <field name="coownership_trustee_id"/>
+                <field name="share_of_ownership_attendance"/>
+                <field name="state" widget="badge" 
+                    decoration-success="state == 'validated'" 
+                    decoration-info="state == 'draft'" 
+                    decoration-warning="state == 'nsd'" 
+                    decoration-muted="state == 'cancelled'"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="meeting_view_form" model="ir.ui.view">
+        <field name="name">meeting.view.form</field>
+        <field name="model">general.meeting</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group string="General information">
+                            <field name="name"/>
+                            <field name="meeting_type"/>
+                            <field name="date"/>
+                            <field name="meeting_place"/>
+                            <field name="share_of_ownership_attendance"/>
+                        </group>
+                        <group string="Members">
+                            <field name="coownership_trustee_id"/>
+                            <field name="president_id"/>
+                            <field name="teller_id"/>
+                            <field name="secretary_id"/>
+                        </group>
+                    </group> 
+                    
+                    <group string="Attendance">
+                        <notebook>
+                            <page string="Attendance">
+                                <field name="attendance_line_ids">
+                                <tree editable="bottom">
+                                    <field name="appartment_id"/>
+                                    <field name="homeowner_id"/>
+                                    <field name="garage_id"/>
+                                    <field name="parking_space_id"/>
+                                    <field name="share_of_ownership_id" sum="Total"/>
+                                </tree>
+                                <form>
+                                    <sheet>
+                                    <group>
+                                        <label for="appartment_id"/>
+                                        <label for="homeowner_id"/>
+                                        <label for="garage_id"/>
+                                        <label for="parking_space_id"/>
+                                        <label for="share_of_ownership_id"/>
+                                            <div>
+                                            <field name="appartment_id" class="oe_inline"/>
+                                                <span class="oe_inline"> </span>
+                                            <field name="homeowner_id" class="oe_inline"/>
+                                                <span class="oe_inline"> </span>
+                                                <field name="garage_id" class="oe_inline"/>
+                                                <span class="oe_inline"> </span>
+                                                <field name="parking_space_id" class="oe_inline"/>
+                                                <span class="oe_inline"> </span>
+                                            <field name="share_of_ownership_id" class="oe_inline"/>
+                                                <span class="oe_inline"> </span>
+                                            </div>
+                                    </group>
+                                    </sheet>
+                                </form>
+                                </field>
+                            </page>
+                        </notebook>
+                    </group>
+                    
+                    <div>
+                        <div class="muk_quality_docs_explanation bg-info">
+                                    Preparation of meeting :
+                        </div> 
+                        <field name="meeting_preparation"/>
+                    </div>
+                    <div>
+                        <div class="muk_quality_docs_explanation bg-info">
+                                    Order of the day :
+                        </div> 
+                        <field name="order_of_the_day"/>
+                    </div>
+                    <div>
+                        <div class="muk_quality_docs_explanation bg-info">
+                                    Report of meeting or general meeting :
+                        </div> 
+                        <field name="report_meeting"/>
+                    </div> 
+                </sheet>
+                    
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" options="{'post_refresh':True}" groups="base.group_user"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+</odoo>

@@ -1,9 +1,9 @@
 <odoo>
     <record id="apartment_management_view_tree" model="ir.ui.view">
-        <field name="name">apartment.management.view.form</field>
+        <field name="name">apartment.management.view.tree</field>
         <field name="model">apartment.management</field>
         <field name="arch" type="xml">
-            <tree string="">
+            <tree string="Apartment management">
                     <field name="id"/>
                     <field name="name" string="Appartement"/>
                     <field name="homeowner"/>
@@ -12,8 +12,11 @@
                     <field name="payment_submission"/>
                     <field name="currency_id" invisible="1"/>
                     <field name="garage"/>
-                    <field name="parking_space"/>                    
+                    <field name="parking_space"/>                   
             </tree>
         </field>
     </record>
+
+    
+
 </odoo>
