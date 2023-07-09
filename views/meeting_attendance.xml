@@ -3,8 +3,8 @@
         <field name="name">meeting_attendance.view.tree</field>
         <field name="model">general.meeting.attendance</field>
         <field name="arch" type="xml">
-            <tree string="Meeting attendance" default_order='date desc, appartment_id'>
-                <field name="appartment_id"/>
+            <tree string="Meeting attendance" default_order='date desc, apartement_id desc'>
+                <field name="apartment_id"/>
                 <field name="homeowner_id"/>
                 <field name="garage"/>
                 <field name="parking_space"/>

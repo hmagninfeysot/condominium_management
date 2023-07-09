@@ -49,7 +49,7 @@
                             <page string="Attendance">
                                 <field name="attendance_line_ids">
                                 <tree editable="bottom">
-                                    <field name="appartment_id"/>
+                                    <field name="apartment_id"/>
                                     <field name="homeowner_id"/>
                                     <field name="garage"/>
                                     <field name="parking_space"/>
@@ -58,13 +58,13 @@
                                 <form>
                                     <sheet>
                                     <group>
-                                        <label for="appartment_id"/>
+                                        <label for="apartment_id"/>
                                         <label for="homeowner_id"/>
                                         <label for="garage"/>
                                         <label for="parking_space"/>
                                         <label for="share_of_ownership"/>
                                             <div>
-                                            <field name="appartment_id" class="oe_inline"/>
+                                            <field name="apartment_id" class="oe_inline"/>
                                                 <span class="oe_inline"> </span>
                                             <field name="homeowner_id" class="oe_inline"/>
                                                 <span class="oe_inline"> </span>

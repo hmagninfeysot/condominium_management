@@ -3,7 +3,7 @@
         <field name="name">payment_approval.view.tree</field>
         <field name="model">payment.approval</field>
         <field name="arch" type="xml">
-            <tree editable="top" default_order='date desc, apartement_id' 
+            <tree editable="top" default_order='date desc' 
                     decoration-info="state_id == 1" 
                     decoration-danger="state_id == 4" 
                     decoration-muted="state_id == 3" 

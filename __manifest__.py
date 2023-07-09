@@ -8,7 +8,7 @@
     'summary': 'Condominium management system',
     'description': """
 Condominium Management
-=================
+======================
 
 This module offers a follow-up of your condominiums:
 

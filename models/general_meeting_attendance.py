@@ -6,11 +6,11 @@ class general_meeting_attendance(models.Model):
 
 
     name = fields.Char('Name')
-    appartment_id = fields.Many2one('apartment.management',string='Appartment')
+    apartment_id = fields.Many2one('apartment.management',string='Apartment')
     date = fields.Date('Date')
-    garage = fields.Char('Garage', related='appartment_id.garage')
-    parking_space = fields.Char('Parking space', related='appartment_id.parking_space')
-    homeowner_id = fields.Many2one('res.partner',string='homeowner', related='appartment_id.homeowner_id')
-    share_of_ownership = fields.Integer('Share of ownership', related='appartment_id.share_of_ownership')
+    garage = fields.Char('Garage', related='apartment_id.garage')
+    parking_space = fields.Char('Parking space', related='apartment_id.parking_space')
+    homeowner_id = fields.Many2one('res.partner',string='homeowner', related='apartment_id.homeowner_id')
+    share_of_ownership = fields.Integer('Share of ownership', related='apartment_id.share_of_ownership')
     meeting_id = fields.Many2one('general.meeting',string='Meeting ID')
     
