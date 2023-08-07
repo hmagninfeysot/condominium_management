@@ -1,0 +1,19 @@
+ <odoo>
+ 
+    <!-- ir action menu - interface action - Menu payment state-->
+    <record id="action_account_move_distribution" model="ir.actions.act_window">
+        <field name="name">Account move distribution</field>
+        <field name="res_model">account.move.distribution</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="menu_account_move_distribution"
+        name="Account move distribution"
+        parent="account.menu_finance"
+        groups="account.group_account_invoice"
+        action="action_account_move_distribution"
+        sequence="3"
+    />
+
+</odoo>

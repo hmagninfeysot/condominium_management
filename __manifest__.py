@@ -29,6 +29,7 @@ This module has been written by Honoré Magnin-Feysot from ExNihiloSolution <htt
     'data': [
         'data/payment_state_data.xml',
         'data/condominium_management_data.xml',
+        'data/account_move_data.xml',
         'security/ir.model.access.csv',
         'views/apartment_management.xml',
         'views/meeting_attendance.xml',

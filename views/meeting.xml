@@ -64,16 +64,16 @@
                                         <label for="parking_space"/>
                                         <label for="share_of_ownership"/>
                                             <div>
-                                            <field name="apartment_id" class="oe_inline"/>
-                                                <span class="oe_inline"> </span>
-                                            <field name="homeowner_id" class="oe_inline"/>
-                                                <span class="oe_inline"> </span>
+                                                <field name="apartment_id" class="oe_inline"/>
+                                                    <span class="oe_inline"></span>
+                                                <field name="homeowner_id" class="oe_inline"/>
+                                                    <span class="oe_inline"></span>
                                                 <field name="garage" class="oe_inline"/>
-                                                <span class="oe_inline"> </span>
+                                                    <span class="oe_inline"></span>
                                                 <field name="parking_space" class="oe_inline"/>
-                                                <span class="oe_inline"> </span>
-                                            <field name="share_of_ownership" class="oe_inline"/>
-                                                <span class="oe_inline"> </span>
+                                                    <span class="oe_inline"></span>
+                                                <field name="share_of_ownership" class="oe_inline"/>
+                                                    <span class="oe_inline"></span>
                                             </div>
                                     </group>
                                     </sheet>
@@ -89,12 +89,16 @@
                         </div> 
                         <field name="meeting_preparation"/>
                     </div>
+                    <br></br>
+                    <br></br>
                     <div>
                         <div class="muk_quality_docs_explanation bg-info">
                                     Order of the day :
                         </div> 
                         <field name="order_of_the_day"/>
                     </div>
+                    <br></br>
+                    <br></br>
                     <div>
                         <div class="muk_quality_docs_explanation bg-info">
                                     Report of meeting or general meeting :
