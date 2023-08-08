@@ -35,6 +35,7 @@
                             <field name="date"/>
                             <field name="meeting_place"/>
                             <field name="share_of_ownership_attendance"/>
+                            <field name="share_of_ownership_total"/>
                         </group>
                         <group string="Members">
                             <field name="coownership_trustee_id"/>

@@ -4,3 +4,4 @@ from . import payment_state
 from . import general_meeting_attendance
 from . import general_meeting
 from . import account_move_distribution
+from . import account_move

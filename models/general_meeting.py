@@ -13,6 +13,7 @@ class general_meeting(models.Model):
     teller_id = fields.Many2one('res.partner',string='Teller')
     secretary_id = fields.Many2one('res.partner',string='Secretary')
     share_of_ownership_attendance = fields.Integer('Share of ownership attendance', compute='_compute_share_of_ownership_attendance')
+    share_of_ownership_total = fields.Integer('Share of ownership total', compute='_compute_share_of_ownership_total')
     attendance_line_ids = fields.One2many('general.meeting.attendance', 'meeting_id', string='Meeting ID')
     meeting_preparation = fields.Text('Meeting preparation')
     order_of_the_day = fields.Text('Order of the day')
@@ -28,3 +29,12 @@ class general_meeting(models.Model):
                 record['share_of_ownership_attendance']=(sum(tantieme_ids.mapped('share_of_ownership')))
             else:
                 record['share_of_ownership_attendance']=0
+    
+    @api.depends('attendance_line_ids')
+    def _compute_share_of_ownership_total(self):
+        for record in self:
+            tantieme_ids=self.env['apartment.management'].search([])
+            if tantieme_ids:
+                record['share_of_ownership_total']=(sum(tantieme_ids.mapped('share_of_ownership')))
+            else:
+                record['share_of_ownership_total']=0

@@ -1,0 +1,744 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* condominium_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-08 18:54+0000\n"
+"PO-Revision-Date: 2023-08-08 18:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: condominium_management
+#: model:ir.actions.report,print_report_name:condominium_management.action_report_general_meeting_sheet
+msgid "'%s - %s' % (object.meeting_type, (object.name).replace('/', ''))"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Co-ownership trustee:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Date:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Meeting type:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Place:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>President:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Secretary:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>Teller:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "<strong>share of ownership attendance:</strong>"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_bank_statement_line__distribution_account_move_ids
+#: model:ir.model.fields,field_description:condominium_management.field_account_move__distribution_account_move_ids
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__account_move_id
+#: model:ir.model.fields,field_description:condominium_management.field_account_payment__distribution_account_move_ids
+msgid "Account move ID"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_account_move_distribution
+#: model:ir.model,name:condominium_management.model_account_move_distribution
+#: model:ir.ui.menu,name:condominium_management.menu_account_move_distribution
+#: model_terms:ir.ui.view,arch_db:condominium_management.CMupdate_account_move_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.account_move_distribution_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.account_move_distribution_tree
+msgid "Account move distribution"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.server,name:condominium_management.action_planified_payment_approval_ir_actions_server
+#: model:ir.cron,cron_name:condominium_management.action_planified_payment_approval
+#: model:ir.cron,name:condominium_management.action_planified_payment_approval
+msgid "Action Planified: Create payment_approval"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__apartment_id
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__name
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__apartment_id
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__apartment_id
+#: model_terms:ir.ui.view,arch_db:condominium_management.apartment_management_view_tree
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Apartment"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_apartment_management
+#: model:ir.ui.menu,name:condominium_management.menu_apartment_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.apartment_management_view_tree
+msgid "Apartment management"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid ""
+"Assemblée Générale des copropriétaires de l’ensemble immobilier en date du"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Attendance"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__ref
+msgid "Bill reference"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__state__cancelled
+msgid "Cancelled"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__coownership_trustee_id
+msgid "Co-ownership trustee"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__comment
+msgid "Comment"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.ui.menu,name:condominium_management.menu_condominium_management
+msgid "Condominium management"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.ui.menu,name:condominium_management.menu_configuration
+msgid "Configuration"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid ""
+"Conformément à l’article 14 du décret du 17 Mars 1967, il a été établi une "
+"feuille de présence qui a été émargée par chaque membre de l’assemblée "
+"entrant en séance."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__create_uid
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__create_uid
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__create_uid
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__create_uid
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__create_uid
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__create_date
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__create_date
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__create_date
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__create_date
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__create_date
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__currency_id
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__currency_id
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__date
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__date
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__date
+msgid "Date"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__date
+msgid "Date/Time"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__display_name
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__distribution_amount
+msgid "Distribution amount"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__garage
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__garage
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Garage"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+msgid "General information"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "General information :"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_general_meeting
+#: model:ir.actions.report,name:condominium_management.action_report_general_meeting_sheet
+#: model:ir.model,name:condominium_management.model_general_meeting
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__meeting_type__gm
+#: model:ir.ui.menu,name:condominium_management.menu_general_meeting
+msgid "General meeting"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_general_meeting_attendance
+#: model:ir.model,name:condominium_management.model_general_meeting_attendance
+#: model:ir.ui.menu,name:condominium_management.menu_general_meeting_attendance
+msgid "General meeting attendance"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__homeowner_id
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__homeowner_id
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__homeowner_id
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__homeowner_id
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Homeowner"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move__id
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__id
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__id
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__id
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__id
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__id
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__id
+msgid "ID"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_needaction
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model,name:condominium_management.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid ""
+"La feuille de présence qui sera certifiée sincère et véritable par les "
+"membres du bureau, permet de constater que les copropriétaires présents et "
+"représentés possèdent"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval____last_update
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__write_uid
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__write_uid
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__write_uid
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__write_uid
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__write_uid
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__write_date
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__write_date
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__write_date
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__write_date
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__write_date
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Le syndicat des copropriétaires de l’ensemble immobilier s’est réuni :"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_attendance_view_tree
+msgid "Lien vers AG/REU"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid ""
+"L’assemblée étant en mesure de prendre des décisions valables est déclarée "
+"régulièrement constituée."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_meeting
+#: model:ir.ui.menu,name:condominium_management.menu_meeting
+#: model:ir.ui.menu,name:condominium_management.menu_meeting_submenu
+msgid "Meeting"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__attendance_line_ids
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__meeting_id
+msgid "Meeting ID"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_attendance_view_tree
+msgid "Meeting attendance"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__meeting_place
+msgid "Meeting place"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__meeting_preparation
+msgid "Meeting preparation"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__report_meeting
+msgid "Meeting report"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__meeting_type
+msgid "Meeting_type"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+msgid "Members"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Members :"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__montlhy_payment
+msgid "Montlhy payment"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__montlhy_payment_theorical
+msgid "Montlhy payment theorical"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__name
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__name
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__name
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__name
+#: model:ir.model.fields,field_description:condominium_management.field_payment_state__name
+msgid "Name"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__state__nsd
+msgid "Need supporting documents"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__order_of_the_day
+msgid "Order of the day"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Order of the day :"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__parking_space
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__parking_space
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Parking space"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_payment_approval
+#: model:ir.model,name:condominium_management.model_payment_approval
+#: model:ir.ui.menu,name:condominium_management.menu_payment_approval
+msgid "Payment approval"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.actions.act_window,name:condominium_management.action_payment_state
+#: model:ir.ui.menu,name:condominium_management.menu_payment_state
+#: model_terms:ir.ui.view,arch_db:condominium_management.payment_state_view_tree
+msgid "Payment state"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__payment_submission
+msgid "Payment submission"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+msgid "Preparation of meeting :"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__president_id
+msgid "President"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__real_payment
+msgid "Real payment"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model,name:condominium_management.model_apartment_management
+msgid "Registration of the apartments of the various condominiums"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Report :"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+msgid "Report of meeting or general meeting :"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__secretary_id
+msgid "Secretary"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__share_of_ownership
+#: model:ir.model.fields,field_description:condominium_management.field_apartment_management__share_of_ownership
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting_attendance__share_of_ownership
+msgid "Share of ownership"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__share_of_ownership_attendance
+msgid "Share of ownership attendance"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_bank_statement_line__share_of_ownership_total
+#: model:ir.model.fields,field_description:condominium_management.field_account_move__share_of_ownership_total
+#: model:ir.model.fields,field_description:condominium_management.field_account_payment__share_of_ownership_total
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__share_of_ownership_total
+msgid "Share of ownership total"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Siganture :"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "Signature"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__state
+#: model:ir.model.fields,field_description:condominium_management.field_payment_approval__state_id
+msgid "State"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__teller_id
+msgid "Teller"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.meeting_view_form
+msgid "Total"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_account_move_distribution__amount_total
+msgid "Total amount"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__state__validated
+msgid "Validated"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,field_description:condominium_management.field_general_meeting__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields,help:condominium_management.field_general_meeting__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.CMupdate_account_move_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.account_move_distribution_form
+#: model_terms:ir.ui.view,arch_db:condominium_management.account_move_distribution_tree
+msgid "identifiant"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model.fields.selection,name:condominium_management.selection__general_meeting__meeting_type__meet
+msgid "meeting"
+msgstr ""
+
+#. module: condominium_management
+#: model:ir.model,name:condominium_management.model_payment_state
+msgid "payment state"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "share of ownership"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.payment_state_view_tree
+msgid "state"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "sur un total de"
+msgstr ""
+
+#. module: condominium_management
+#: model_terms:ir.ui.view,arch_db:condominium_management.report_general_meeting_sheet
+msgid "tantièmes"
+msgstr ""

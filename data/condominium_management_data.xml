@@ -61,7 +61,7 @@
     <menuitem
         id="menu_general_meeting_attendance"
         name="General meeting attendance"
-        parent="condominium_management.menu_configuration"
+        parent="condominium_management.menu_meeting"
         groups="base.group_user"
         action="action_general_meeting_attendance"
         sequence="5"
