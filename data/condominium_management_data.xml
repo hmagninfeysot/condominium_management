@@ -51,6 +51,16 @@
         sequence="4"
     /> 
 
+        <!-- ir action menu - interface action - Menu general meeting-->
+    <menuitem
+        id="menu_meeting"
+        name="Meeting"
+        parent="condominium_management.menu_condominium_management"
+        groups="base.group_user"
+        action=""
+        sequence="1"
+    /> 
+    
    <!-- ir action menu - interface action - Menu general meeting attendance-->
     <record id="action_general_meeting_attendance" model="ir.actions.act_window">
         <field name="name">General meeting attendance</field>
@@ -67,15 +77,7 @@
         sequence="5"
     /> 
 
-    <!-- ir action menu - interface action - Menu general meeting-->
-    <menuitem
-        id="menu_meeting"
-        name="Meeting"
-        parent="condominium_management.menu_condominium_management"
-        groups="base.group_user"
-        action=""
-        sequence="1"
-    /> 
+
 
     <record id="action_general_meeting" model="ir.actions.act_window">
         <field name="name">General meeting</field>
